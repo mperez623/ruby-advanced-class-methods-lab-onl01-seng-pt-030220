@@ -51,7 +51,7 @@ class Song
     rows = filename.split("-")
     s = self.new
     s.artist_name = rows[0]
-    s.name = rows[1].split(".mp3")[2]
+    s.name = rows[1].split(".mp3")[0]
     s
   end
   
